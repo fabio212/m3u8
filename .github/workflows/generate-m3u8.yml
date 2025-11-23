@@ -1,0 +1,76 @@
+name: Generate M3U8 playlists
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install yt-dlp
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Generate playlists (YouTube / Kick / Twitch)
+        run: |
+          chmod +x scripts/*.sh
+          ./scripts/youtube.sh
+          ./scripts/kick.sh
+          ./scripts/twitch.sh
+          ./scripts/build_all.sh
+
+      - name: Commit and push playlists to m3u8 branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          ls -1 *.m3u8 || echo "Nenhum arquivo m3u8 gerado ainda."
+
+          mkdir -p /tmp/m3u8-output
+          cp ./*.m3u8 /tmp/m3u8-output/ || true
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin || true
+
+          if git show-ref --verify --quiet refs/remotes/origin/m3u8; then
+            git checkout m3u8
+            git reset --hard origin/m3u8
+          else
+            git checkout --orphan m3u8
+            git rm -rf . || true
+          fi
+
+          rm -f ./*.m3u8 || true
+
+          cp /tmp/m3u8-output/*.m3u8 . || true
+
+          if git status --porcelain | grep '.m3u8' > /dev/null; then
+            git add *.m3u8
+            git commit -m "Atualiza playlists m3u8 ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))" || true
+            git push origin m3u8
+          else
+            echo "Nenhuma alteração nas playlists m3u8."
+          fi
