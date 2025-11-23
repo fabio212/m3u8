@@ -31,13 +31,20 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y jq
 
-      - name: Generate playlists (YouTube / Kick / Twitch)
-        run: |
-          chmod +x scripts/*.sh
-          ./scripts/youtube.sh
-          ./scripts/kick.sh
-          ./scripts/twitch.sh
-          ./scripts/build_all.sh
+      - name: Make scripts executable
+        run: chmod -v +x scripts/*.sh
+
+      - name: Generate YouTube playlists
+        run: ./scripts/youtube.sh
+
+      - name: Generate Kick playlists
+        run: ./scripts/kick.sh
+
+      - name: Generate Twitch playlists
+        run: ./scripts/twitch.sh
+
+      - name: Build combined playlists
+        run: ./scripts/build_all.sh
 
       - name: Commit and push playlists to m3u8 branch
         env:
@@ -72,5 +79,5 @@ jobs:
             git commit -m "Atualiza playlists m3u8 ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))" || true
             git push origin m3u8
           else
-            echo "Nenhuma alteração nas playlists m3u8."
+            echo "Nenhuma alteracao nas playlists m3u8."
           fi
