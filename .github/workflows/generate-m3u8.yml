@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+      YOUTUBE_MAX_WORKERS: ${{ vars.YOUTUBE_MAX_WORKERS }}
+      KICK_MAX_WORKERS: ${{ vars.KICK_MAX_WORKERS }}
+      TWITCH_MAX_WORKERS: ${{ vars.TWITCH_MAX_WORKERS }}
 
     steps:
       - name: Checkout repository
