@@ -116,7 +116,7 @@ process_channel() {
       m3u8_url="$(timeout 120s "${YT_DLP_BASE[@]}" -g -f 'best' "https://www.youtube.com/watch?v=${vid}" | head -n1 || true)"
       [[ -z "$m3u8_url" ]] && continue
 
-      echo "#EXTINF:-1 tvg-id=\"$channel_name\" group-title=\"YouTube - $channel_name\",$title"
+      echo "#EXTINF:-1 tvg-id=\"$channel_name\" group-title=\"$channel_name - YouTube\",$title"
       echo "$m3u8_url"
     done
   } > "$tmp_file"
