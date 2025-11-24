@@ -14,6 +14,8 @@
 @espnbrasil
 @EsportenaBand
 @fiodiario
+@FlowPodcast
+@FlowSportClub
 @gazetadopovo
 @getv
 @InstitutoConhecimentoLiberta
@@ -30,7 +32,11 @@ https://www.youtube.com/c/Metr%C3%B3polesTV
 @PauloFigueiredoShow
 @radiobandeirantesoficial
 @RadioBandNewsFM
+https://www.youtube.com/c/R%C3%A1dioCraqueNeto
+@RadioKissFMoficial
+@radiomixfm
 @recordnews
+@RedCastOficial
 @RevistaOeste
 @sbt
 @sbtgames
