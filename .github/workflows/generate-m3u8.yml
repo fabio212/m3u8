@@ -11,6 +11,8 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    env:
+      YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
 
     steps:
       - name: Checkout repository
@@ -32,9 +34,7 @@ jobs:
           sudo apt-get install -y jq
 
       - name: Prepare YouTube cookies (optional)
-        if: ${{ secrets.YOUTUBE_COOKIES != '' }}
-        env:
-          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+        if: env.YOUTUBE_COOKIES != ''
         run: |
           echo "$YOUTUBE_COOKIES" | base64 -d > /tmp/youtube-cookies.txt
           echo "YT_COOKIES_FILE=/tmp/youtube-cookies.txt" >> $GITHUB_ENV
