@@ -36,8 +36,16 @@ jobs:
       - name: Prepare YouTube cookies (optional)
         if: env.YOUTUBE_COOKIES != ''
         run: |
-          echo "$YOUTUBE_COOKIES" | base64 -d > /tmp/youtube-cookies.txt
-          echo "YT_COOKIES_FILE=/tmp/youtube-cookies.txt" >> $GITHUB_ENV
+          set -euo pipefail
+          TMP_COOKIES=/tmp/youtube-cookies.txt
+          if printf '%s' "$YOUTUBE_COOKIES" | base64 -d > "$TMP_COOKIES" 2>/dev/null; then
+            echo "Cookies decodificados de base64 para $TMP_COOKIES"
+          else
+            printf '%s' "$YOUTUBE_COOKIES" > "$TMP_COOKIES"
+            echo "Cookies gravados como texto puro em $TMP_COOKIES"
+          fi
+          chmod 600 "$TMP_COOKIES"
+          echo "YT_COOKIES_FILE=$TMP_COOKIES" >> $GITHUB_ENV
 
       - name: Make scripts executable
         run: chmod -v +x scripts/*.sh
