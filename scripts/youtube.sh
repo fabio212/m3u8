@@ -62,7 +62,7 @@ process_channel() {
     echo "  Nenhuma live encontrada para $channel" >&2
     return
   else
-    echo "  Lives encontradas: ${#video_ids[@]}"
+    echo "  Lives encontradas para $channel --> ${#video_ids[@]}"
   fi
 
   local channel_name

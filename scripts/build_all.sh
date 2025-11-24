@@ -11,4 +11,4 @@ for file in "$ROOT_DIR/youtube.m3u8" "$ROOT_DIR/kick.m3u8" "$ROOT_DIR/twitch.m3u
     # pula a primeira linha (#EXTM3U)
     tail -n +2 "$file" >> "$OUTPUT_FILE"
   fi
-Done
+done
