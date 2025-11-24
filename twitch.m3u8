@@ -1,0 +1,11 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
+https://as.luminous.dev/live/betboom_sb_dota?allow_source=true&allow_audio_only=false&fast_bread=true
+#EXTINF:-1 tvg-id="twitch-chess24" group-title="Twitch",Twitch: chess24
+https://as.luminous.dev/live/chess24?allow_source=true&allow_audio_only=false&fast_bread=true
+#EXTINF:-1 tvg-id="twitch-chess24pt" group-title="Twitch",Twitch: chess24pt
+https://as.luminous.dev/live/chess24pt?allow_source=true&allow_audio_only=false&fast_bread=true
+#EXTINF:-1 tvg-id="twitch-energia97fm" group-title="Twitch",Twitch: energia97fm
+https://as.luminous.dev/live/energia97fm?allow_source=true&allow_audio_only=false&fast_bread=true
+#EXTINF:-1 tvg-id="twitch-InteligenciaLimitada" group-title="Twitch",Twitch: InteligenciaLimitada
+https://as.luminous.dev/live/InteligenciaLimitada?allow_source=true&allow_audio_only=false&fast_bread=true
