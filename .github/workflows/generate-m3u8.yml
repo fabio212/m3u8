@@ -79,6 +79,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+          # Limpa o working tree antes de trocar de branch
+          git stash --all --quiet || true
+
           git fetch origin || true
 
           if git show-ref --verify --quiet refs/remotes/origin/m3u8; then
