@@ -14,7 +14,7 @@ if [[ ! -f "$INPUT_FILE" ]]; then
   exit 0
 fi
 
-YT_DLP_BASE=(yt-dlp --progress --no-warnings --retries 3 --socket-timeout 15)
+YT_DLP_BASE=(yt-dlp --progress --no-warnings --retries 3 --socket-timeout 15 --ignore-errors --extractor-args "youtube:player_client=android_embedded")
 
 echo "Lendo canais de $INPUT_FILE..."
 
