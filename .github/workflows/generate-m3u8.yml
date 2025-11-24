@@ -33,6 +33,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y jq
 
+      - name: Make scripts executable
+        run: chmod -v +x scripts/*.sh
+
       - name: Generate Kick playlists
         run: ./scripts/kick.sh
 
@@ -52,9 +55,6 @@ jobs:
           fi
           chmod 600 "$TMP_COOKIES"
           echo "YT_COOKIES_FILE=$TMP_COOKIES" >> $GITHUB_ENV
-
-      - name: Make scripts executable
-        run: chmod -v +x scripts/*.sh
 
       - name: Generate YouTube playlists
         run: ./scripts/youtube.sh
