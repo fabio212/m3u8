@@ -13,6 +13,15 @@ TMP_DIR="$(mktemp -d)"
 trap 'rm -rf "$TMP_DIR"' EXIT
 MAX_JOBS="${KICK_MAX_WORKERS:-4}"
 
+KICK_DLP_BASE=(
+  yt-dlp
+  --no-warnings
+  --retries 3
+  --socket-timeout 15
+  --ignore-errors
+  --geo-bypass
+)
+
 if [[ ! -f "$INPUT_FILE" ]]; then
   echo "Arquivo de canais da Kick nao encontrado: $INPUT_FILE" >&2
   exit 0
@@ -34,17 +43,22 @@ process_channel() {
     name="$channel"
   fi
 
-  info_json="$(timeout 60s yt-dlp -j "$url" 2>/dev/null || true)"
+  info_json="$(timeout 60s "${KICK_DLP_BASE[@]}" -j "$url" 2>/dev/null || true)"
   [[ -z "$info_json" ]] && return
 
-  is_live="$(jq -r '.is_live // .live_status // empty' <<<"$info_json")"
-  if [[ "$is_live" != "true" && "$is_live" != "is_live" ]]; then
-    echo "  Offline: $channel" >&2
-    return
-  fi
+  is_live="$(jq -r '.is_live // .live_status // .livestream.is_live // .livestream.broadcasting // empty' <<<"$info_json")"
+  live_status_text="$(jq -r '.livestream.status // empty' <<<"$info_json")"
+  case "$is_live|$live_status_text" in
+    true|is_live|live*|1|true|1|*|live)
+      ;;
+    *)
+      echo "  Offline: $channel" >&2
+      return
+      ;;
+  esac
 
   title="$(jq -r '.title // .fulltitle // "Kick live"' <<<"$info_json")"
-  m3u8_url="$(timeout 60s yt-dlp -g -f 'best' "$url" 2>/dev/null | head -n1 || true)"
+  m3u8_url="$(timeout 60s "${KICK_DLP_BASE[@]}" -g -f 'best' "$url" 2>/dev/null | head -n1 || true)"
   [[ -z "$m3u8_url" ]] && return
 
   {
