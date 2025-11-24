@@ -58,8 +58,18 @@ process_channel() {
   echo "  Buscando lives em $playlist_url"
 
   mapfile -t video_ids_raw < <(timeout 120s "${YT_DLP_BASE[@]}" --flat-playlist --dump-json --match-filter "live_status=is_live" "$playlist_url" | jq -r 'select(.id != null) | .id' || true)
-  # Deduplica IDs
   mapfile -t video_ids < <(printf '%s\n' "${video_ids_raw[@]}" | awk 'NF && !seen[$0]++')
+
+  # Fallback: tenta /live direto se nada veio da aba streams
+  if [[ ${#video_ids[@]} -eq 0 ]]; then
+    live_info="$(timeout 120s "${YT_DLP_BASE[@]}" -j "${base_url%/}/live" || true)"
+    live_id="$(jq -r 'select(.id != null) | .id // empty' <<<"$live_info")"
+    live_status_fallback="$(jq -r '.live_status // empty' <<<"$live_info")"
+    if [[ -n "$live_id" && "$live_status_fallback" == "is_live" ]]; then
+      video_ids=("$live_id")
+      echo "  Fallback /live encontrou 1 live para $channel"
+    fi
+  fi
 
   if [[ ${#video_ids[@]} -eq 0 ]]; then
     echo "  Nenhuma live encontrada para $channel" >&2
