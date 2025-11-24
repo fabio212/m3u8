@@ -22,7 +22,6 @@ COOKIES_FILE="${YT_COOKIES_FILE:-${YOUTUBE_COOKIES_FILE:-}}"
 
 YT_DLP_BASE=(
   yt-dlp
-  --progress
   --no-warnings
   --retries 3
   --socket-timeout 15
@@ -58,7 +57,9 @@ process_channel() {
   local playlist_url="${base_url%/}/streams"
   echo "  Buscando lives em $playlist_url"
 
-  mapfile -t video_ids < <(timeout 120s "${YT_DLP_BASE[@]}" --flat-playlist --dump-json --match-filter "live_status=is_live" "$playlist_url" | jq -r 'select(.id != null) | .id' || true)
+  mapfile -t video_ids_raw < <(timeout 120s "${YT_DLP_BASE[@]}" --flat-playlist --dump-json --match-filter "live_status=is_live" "$playlist_url" | jq -r 'select(.id != null) | .id' || true)
+  # Deduplica IDs
+  mapfile -t video_ids < <(printf '%s\n' "${video_ids_raw[@]}" | awk 'NF && !seen[$0]++')
 
   if [[ ${#video_ids[@]} -eq 0 ]]; then
     echo "  Nenhuma live encontrada para $channel" >&2
@@ -68,7 +69,15 @@ process_channel() {
   fi
 
   local channel_name
-  channel_name="$(timeout 60s "${YT_DLP_BASE[@]}" --dump-json "$base_url" | jq -r '.channel // .uploader // empty' || true)"
+  channel_name="$(
+    timeout 60s "${YT_DLP_BASE[@]}" --dump-json --playlist-end 1 --no-playlist "$base_url" \
+    | jq -r '.channel // .uploader // .uploader_id // empty' \
+    | head -n1 \
+    | tr -d '\r' \
+    | tr '\n' ' ' \
+    | sed 's/[[:space:]]\{1,\}/ /g; s/^ //; s/ $//' \
+    || true
+  )"
   if [[ -z "$channel_name" ]]; then
     channel_name="$channel"
   fi
@@ -85,7 +94,13 @@ process_channel() {
         continue
       fi
 
-      title="$(jq -r '.title' <<<"$info_json")"
+      title="$(
+        jq -r '.title // empty' <<<"$info_json" \
+        | tr -d '\r' \
+        | tr '\n' ' ' \
+        | sed 's/[[:space:]]\{1,\}/ /g; s/^ //; s/ $//' \
+      )"
+      [[ -z "$title" ]] && title="Live"
 
       m3u8_url="$(timeout 120s "${YT_DLP_BASE[@]}" -g -f 'best' "https://www.youtube.com/watch?v=${vid}" | head -n1 || true)"
       [[ -z "$m3u8_url" ]] && continue
