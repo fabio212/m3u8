@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+shopt -s nullglob
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 INPUT_FILE="${1:-"$ROOT_DIR/channels/twitch.txt"}"
@@ -9,6 +10,7 @@ mkdir -p "$(dirname "$OUTPUT_FILE")"
 
 echo "#EXTM3U" > "$OUTPUT_FILE"
 TMP_DIR="$(mktemp -d)"
+trap 'rm -rf "$TMP_DIR"' EXIT
 MAX_JOBS="${TWITCH_MAX_WORKERS:-6}"
 
 if [[ ! -f "$INPUT_FILE" ]]; then
@@ -49,12 +51,12 @@ while IFS= read -r channel || [[ -n "${channel:-}" ]]; do
   job_count=$((job_count + 1))
 
   if (( job_count >= MAX_JOBS )); then
-    wait -n
+    wait -n || true
     job_count=$((job_count - 1))
   fi
 done < "$INPUT_FILE"
 
-wait
+wait || true
 
 for part in "$TMP_DIR"/*.m3u8; do
   [[ -s "$part" ]] && cat "$part" >> "$OUTPUT_FILE"

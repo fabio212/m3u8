@@ -33,6 +33,12 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y jq
 
+      - name: Generate Kick playlists
+        run: ./scripts/kick.sh
+
+      - name: Generate Twitch playlists
+        run: ./scripts/twitch.sh
+
       - name: Prepare YouTube cookies (optional)
         if: env.YOUTUBE_COOKIES != ''
         run: |
@@ -52,12 +58,6 @@ jobs:
 
       - name: Generate YouTube playlists
         run: ./scripts/youtube.sh
-
-      - name: Generate Kick playlists
-        run: ./scripts/kick.sh
-
-      - name: Generate Twitch playlists
-        run: ./scripts/twitch.sh
 
       - name: Build combined playlists
         run: ./scripts/build_all.sh
