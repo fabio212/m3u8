@@ -14,7 +14,24 @@ if [[ ! -f "$INPUT_FILE" ]]; then
   exit 0
 fi
 
-YT_DLP_BASE=(yt-dlp --progress --no-warnings --retries 3 --socket-timeout 15 --ignore-errors --extractor-args "youtube:player_client=android_embedded")
+COOKIES_FILE="${YT_COOKIES_FILE:-${YOUTUBE_COOKIES_FILE:-}}"
+
+YT_DLP_BASE=(
+  yt-dlp
+  --progress
+  --no-warnings
+  --retries 3
+  --socket-timeout 15
+  --ignore-errors
+  --extractor-args "youtube:player_client=android_embedded"
+)
+
+if [[ -n "$COOKIES_FILE" && -f "$COOKIES_FILE" ]]; then
+  echo "Usando cookies do arquivo $COOKIES_FILE"
+  YT_DLP_BASE+=(--cookies "$COOKIES_FILE")
+else
+  echo "Sem cookies; videos que exigem login podem falhar"
+fi
 
 echo "Lendo canais de $INPUT_FILE..."
 
@@ -36,7 +53,7 @@ while IFS= read -r channel || [[ -n "${channel:-}" ]]; do
   playlist_url="${base_url%/}/streams"
   echo "  Buscando lives em $playlist_url"
 
-  mapfile -t video_ids < <(timeout 120s "${YT_DLP_BASE[@]}" --flat-playlist --dump-json "$playlist_url" | jq -r 'select(.id != null) | .id' || true)
+  mapfile -t video_ids < <(timeout 120s "${YT_DLP_BASE[@]}" --flat-playlist --dump-json --match-filter "live_status=is_live" "$playlist_url" | jq -r 'select(.id != null) | .id' || true)
 
   if [[ ${#video_ids[@]} -eq 0 ]]; then
     echo "  Nenhuma live encontrada para $channel" >&2
@@ -72,3 +89,4 @@ while IFS= read -r channel || [[ -n "${channel:-}" ]]; do
   done
 
 done < "$INPUT_FILE"
+

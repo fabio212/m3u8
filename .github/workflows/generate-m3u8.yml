@@ -31,6 +31,14 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y jq
 
+      - name: Prepare YouTube cookies (optional)
+        if: ${{ secrets.YOUTUBE_COOKIES != '' }}
+        env:
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+        run: |
+          echo "$YOUTUBE_COOKIES" | base64 -d > /tmp/youtube-cookies.txt
+          echo "YT_COOKIES_FILE=/tmp/youtube-cookies.txt" >> $GITHUB_ENV
+
       - name: Make scripts executable
         run: chmod -v +x scripts/*.sh
 
