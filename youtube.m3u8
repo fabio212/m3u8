@@ -3,33 +3,17 @@
 # -------- Canal: @ConversaTimeline --------
 
 # -------- Canal: @earthcam --------
-#EXTINF:-1 tvg-id="@earthcam" group-title="@earthcam - YouTube",EarthCam Live: Ruidoso, New Mexico
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1764628811/ei/68Qtab2pGc2xlu8Pk4WgsQ0/ip/52.176.124.229/id/AVfDckwp-Jg.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr1---sn-q4fl6nsk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AdEuB5R5NoT4M6fzuidryNrqiec2dfZ1k0fjZbYtL1b7hF-2LWXA7drgQhemNTP4kj3UCpWA2A/spc/6b0G_DPRd4IENWDWBnPJQ0XZ57yqPqMP7Rc2u-T76nO0_gELxCSi08hJeCoDHyeelQ0/vprv/1/playlist_type/DVR/cps/6/met/1764607211,/mh/-2/mm/44/mn/sn-q4fl6nsk/ms/lva/mv/u/mvi/1/pl/20/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565116,51565681,51580968/mt/1764606064/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhAJ8y12xRASlDy6fhM710Msszztx96aC8aYQfZ7tfYZa8AiEA8GyZGjFLjR85EJshLapIH8-JGXAKZkl5Ca2oqMHuadM%3D/lsparams/hls_chunk_host,cps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgA3WRbjCc9YxCpbdlSwUGUaRGJhNyMwkxStz3lyVnSmICIBh3hsdBzhVO6zbI429EzQ_2JBrxuGS-f4PRfg8phpR2/playlist/index.m3u8
-#EXTINF:-1 tvg-id="@earthcam" group-title="@earthcam - YouTube",EarthCam Live: SUMMIT One Vanderbilt (New York City, NY)
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1764628835/ei/A8UtaeXfH-CP2_gP65WJ4Q8/ip/52.176.124.229/id/TsgoxkRFit0.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-q4fl6n6s.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/siu/1/bui/AdEuB5Q6ZzIuduFw_SjWiFWhWD9XZPWMsW57JTy7oplpaFQKFowu3SR6E_qyvJ7du4wmCXXuvw/spc/6b0G_ExN0I0KK1WvVSUhiAWMZhlVCMMTmzzZvNnv8rYpqERxJBSy0FfOF8nltP7ofUE/vprv/1/playlist_type/DVR/cps/84/met/1764607235,/mh/Ak/mm/44/mn/sn-q4fl6n6s/ms/lva/mv/u/mvi/4/pl/20/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565116,51565681,51580968/mt/1764606064/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,siu,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIgQNYS_jT087LqVc-75qFmCwr61EHWPGcCTXOGC3TDzcICIQC8hP8dCiRTSo08M7MBDHWaE5sBUXwf8Qt27OerEQUFTg%3D%3D/lsparams/hls_chunk_host,cps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAJ6j6D1JdkZ4iOgTcDAMNyMgS9E1zkskI75vlGSJ7LAmAiBQtk73ywxeiO-Z5UZvyJxvLCrQAouymMlfurpHiEVbSQ%3D%3D/playlist/index.m3u8
 
 # -------- Canal: @gazetadopovo --------
-
-# -------- Canal: @getv --------
-
-# -------- Canal: @InstitutoConhecimentoLiberta --------
-
-# -------- Canal: @MBLiveTV --------
 
 # -------- Canal: @otimesbrasil --------
 
 # -------- Canal: @panicojovempan --------
 
 # -------- Canal: @c5n --------
-#EXTINF:-1 tvg-id="@c5n" group-title="@c5n - YouTube",C5N EN VIVO | Toda la información en un solo lugar - Seguí la transmisión las 24 horas
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1764628632/ei/OMQtacDVJqSwlu8Pju724Qc/ip/52.176.124.229/id/SF06Qy1Ct6Y.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-q4fl6nlz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/siu/1/bui/AdEuB5Tz3DoHHw0CaB4NQjexA-xo3TqDvm6miiHWmzca_0BELyK0rmblaw_cO8mM07bSCrDnzg/spc/6b0G_INmYOjs9pZxVLY_s5EUdvjCz3eLGMuHz1IH6smwaTcz-he04QzQ9i-Z9JHCsSk/vprv/1/playlist_type/LIVE/cps/210/met/1764607034,/mh/yp/mm/44/mn/sn-q4fl6nlz/ms/lva/mv/u/mvi/2/pl/20/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565116,51565681,51580968/mt/1764606064/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,siu,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIgfMH1uccO3LCyTZ9Od7uvMbcxNlVkVz4ncKYNqsJio84CIQCZI50w4IeVeVKIAZP6qkMJWBUj5KYo0jwuiPDAG28M-g%3D%3D/lsparams/hls_chunk_host,cps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgKYty1AwSyFQoG2N7nXKDXLHRY9C1BqCHMwqaajj0SF4CIFQYCmNp3hRYd0V4lVn75paRAdUH2kj-qkhutaUjKaNO/playlist/index.m3u8
 
 # -------- Canal: @RevistaOeste --------
 
 # -------- Canal: @SkylineWebcams --------
 
-# -------- Canal: @tmcesportes --------
-
 # -------- Canal: @todonoticias --------
-
-# -------- Canal: @uol --------
