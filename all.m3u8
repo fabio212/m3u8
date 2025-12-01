@@ -28,8 +28,6 @@
 
 # -------- Canal: @TVFLORIDAUSA --------
 
-# -------- Canal: @uol --------
-
 # -------- Canal: @Chupim --------
 #EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
 https://as.luminous.dev/live/betboom_sb_dota?allow_source=true&allow_audio_only=false&fast_bread=true
