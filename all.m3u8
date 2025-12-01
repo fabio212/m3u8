@@ -2,19 +2,11 @@
 
 # -------- Canal: @earthcam --------
 
-# -------- Canal: @getv --------
+# -------- Canal: @bmcnewstv --------
 
 # -------- Canal: @jovempan3em1 --------
 
-# -------- Canal: @MBLiveTV --------
-
-# -------- Canal: @morningshow --------
-
-# -------- Canal: @NaLataDriver --------
-
 # -------- Canal: @otimesbrasil --------
-
-# -------- Canal: @bradockshow --------
 
 # -------- Canal: @c5n --------
 
@@ -24,11 +16,13 @@
 
 # -------- Canal: @SkylineWebcams --------
 
-# -------- Canal: @TMC.360 --------
+# -------- Canal: @tmcesportes --------
 
 # -------- Canal: @todonoticias --------
 
-# -------- Canal: @Chupim --------
+# -------- Canal: @TVFLORIDAUSA --------
+
+# -------- Canal: @uol --------
 #EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
 https://as.luminous.dev/live/betboom_sb_dota?allow_source=true&allow_audio_only=false&fast_bread=true
 #EXTINF:-1 tvg-id="twitch-chess24" group-title="Twitch",Twitch: chess24
