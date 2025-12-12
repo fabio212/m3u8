@@ -1,6 +1,8 @@
 #EXTM3U
 
 # -------- Canal: @earthcam --------
+#EXTINF:-1 tvg-id="@earthcam" group-title="@earthcam - YouTube",EarthCam Live: Animals and Nature Cam (Webster, NY)
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1765558281/ei/qfM7abo8qP2x8g_P9eDoCQ/ip/68.220.62.100/id/hI3FYSVqEhA.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-ojn4v5-5g.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AYUSA3DVaCAd3hGxONX8fYzsofxEiCC9JZJcdaaEK0AJIk75tXGryxFaXNuPF9imqrzkijzJA_hy9D7D/spc/wH4Qq_3-pTLBF9UtNR6n6EkLfYxIoOh6YYSZZCIkvwxNlbX16eExPsz0/vprv/1/ns/jyGM2rl0H5oCkxLA5DD3nssR/playlist_type/DVR/cps/0/met/1765536681,/mh/g5/mm/44/mn/sn-ojn4v5-5g/ms/lva/mv/u/mvi/1/pl/19/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565116,51565682,51580968/n/iNxrtgKQwQ_IQpq/mt/1765536511/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRAIgf-U-rj8SL6R5hxkIIwpeup85pEGVVetv9mj4rbQgITMCIE5LpZ68v2ik6ViwBPsGFDO5M_wGRhNcQ3rAWLpEnj8k/lsparams/hls_chunk_host,cps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAPE2jUzPfYLdUJfUQrh_aSb8KwCZGSkVYY4QZvMYyL2EAiEAo5oB1UVB3H5bkJ7jkrTvNcJLFsqFqHKLxIEalzBDDFQ%3D/playlist/index.m3u8
 
 # -------- Canal: @otimesbrasil --------
 
