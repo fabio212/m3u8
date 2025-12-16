@@ -1,16 +1,22 @@
 #EXTM3U
 
+# -------- Canal: @ConversaTimeline --------
+
 # -------- Canal: @earthcam --------
 
 # -------- Canal: @fiodiario --------
 
-# -------- Canal: @bmcnewstv --------
+# -------- Canal: @getv --------
+
+# -------- Canal: @MBLiveTV --------
 
 # -------- Canal: @morningshow --------
 
 # -------- Canal: @otimesbrasil --------
 
 # -------- Canal: @bradockshow --------
+
+# -------- Canal: @panicojovempan --------
 
 # -------- Canal: @c5n --------
 
@@ -22,15 +28,13 @@
 
 # -------- Canal: @Telefe --------
 
-# -------- Canal: @TMC.360 --------
+# -------- Canal: @tmcesportes --------
 
 # -------- Canal: @todonoticias --------
 
 # -------- Canal: @TVFLORIDAUSA --------
 
 # -------- Canal: @uol --------
-
-# -------- Canal: @CazeTV --------
 
 # -------- Canal: @ClaudioDantasOficial --------
 #EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
