@@ -1,30 +1,16 @@
 #EXTM3U
 
 # -------- Canal: @earthcam --------
-#EXTINF:-1 tvg-id="@earthcam" group-title="@earthcam - YouTube",EarthCam Live: Flight 93 Memorial - Tower of Voices (Shanksville, PA)
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1766458677/ei/1bBJaYHYFZqP2_gP0fbAiQw/ip/135.232.200.211/id/jdvoPby6YVU.1/itag/93/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D134/rqh/1/hls_chunk_host/rr4---sn-vgqsrns6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AYUSA3AiTcGtwveLu-Te-AqiIShMl0O5RhGBwdQ79Bp9_jnVTvvuN_K_dUzr_Y6c25NPQFcXEWeLs6PP/spc/wH4Qqxyp2I-t-JQfN_ahiE7qW78xWy4aEbPnwrOfR6B4oLSCrIO2hHoweo941keZVeA/vprv/1/ns/jSQY15u1M82Zc90z91y4_QkR/playlist_type/DVR/cps/48/initcwndbps/3932500/met/1766437078,/mh/Si/mm/44/mn/sn-vgqsrns6/ms/lva/mv/m/mvi/4/pl/17/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/Wet7nm4VY-xVMcTJUk/mt/1766436553/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRAIgQVd6ikgf91jfDfVpBrsPyvJtfKnC2zMHLg9n3O5GPe8CIEoGtY9t8wJ3xxpr6uU9uBLSb4cCACTmLxvfoc4mQ6bL/lsparams/hls_chunk_host,cps,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhANJVNV-EeHjJyQ5Qop7hyM_bUBYueZpEPNc4IflXPddrAiEA_yLlkMI-fZm3KuZLOUK6Ic6jRkjJxQQEf-DpDL22KKc%3D/playlist/index.m3u8
-#EXTINF:-1 tvg-id="@earthcam" group-title="@earthcam - YouTube",EarthCam Live: City of Cavalier (Cavalier, ND)
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1766458691/ei/47BJaZymE-C0lu8PoLym4QI/ip/135.232.200.211/id/3VYf3klCwbM.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr1---sn-vgqsrnz7.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AYUSA3CEl9hhEgFvNdaSONYm8XO51e_gcJZvexLYOab8Gq9G0WeN0-AzBUUpYTIM2bhaKZV_cEd7al4n/spc/wH4Qq2kBV8PxXNzYIhDORCXN-0RBjq13HBPdm7uomvZ4XH2U9tNC3PK2vQMgydzrAcs/vprv/1/ns/hmxe0z14KWNROtSwNDPqvbER/playlist_type/DVR/cps/0/initcwndbps/4656250/met/1766437092,/mh/ll/mm/44/mn/sn-vgqsrnz7/ms/lva/mv/m/mvi/1/pl/17/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/RuB8ai8oHZc_YvLVaI/mt/1766436757/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRQIgLkUL8gOGn6WenfsBmfLFRkMK3hq1clrzIX0DbuRgX18CIQClQ3zptNx_NZDhbo-NbmMN3evco3dbSJh0VshoFQeDDg%3D%3D/lsparams/hls_chunk_host,cps,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAJNfKSeGh7VowkoGfM9Mu6KxKWf4Opagq1KqAZFQzUqSAiAF-gIwPUfUrMCDoZDb8UqrkXhs_qHs2U7_GYLd7PwSWQ%3D%3D/playlist/index.m3u8
-#EXTINF:-1 tvg-id="@earthcam" group-title="@earthcam - YouTube",EarthCam Live - Western Wall (Jerusalem, Israel)
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1766458705/ei/8bBJaeicNPmz-coPmKP2iAU/ip/135.232.200.211/id/0jEa0FOw6vE.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-vgqsrnzz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AYUSA3C2NXpvnLAfVjxo97Z8ceF8EFbHtrer92zX3uphbr8AclN6t0lsKGHtmNEXdZqcIg7QNQO7yTmr/spc/wH4Qq1kCT26dim4YdyVqmsMvYA848Ei0wEhRq8J-QLUu4iSrm3NISXtIf0UnSQhtPro/vprv/1/ns/YuEDGaRZZEKgGhz7VY2YoT0R/playlist_type/DVR/cps/0/initcwndbps/3932500/met/1766437106,/mh/Rg/mm/44/mn/sn-vgqsrnzz/ms/lva/mv/m/mvi/4/pl/17/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/YHhY9dRQ6oNHVpX3JB/mt/1766436553/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRQIhAIy4iiHIqVXO_ZKgulAJsCQKwX7YijzelHngFnJ-qQI1AiB0NbspQBpYOtVQtQ2w_BJMzTvxWp627wQ7JyD-b2hJQA%3D%3D/lsparams/hls_chunk_host,cps,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgLtbh_n5z16WGRT6iZhb_8IWenixLXO2s5z2AxOcbZ5sCIQCznMMWSHBQp7ajG7_qylrVzAHWZmWWkM2w-JfXHKw3Dg%3D%3D/playlist/index.m3u8
-#EXTINF:-1 tvg-id="@earthcam" group-title="@earthcam - YouTube",EarthCam Live: Milwaukee, WI
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1766458732/ei/DLFJaZgi0YWW7w-WjKfBDA/ip/135.232.200.211/id/kqmwfusqmKo.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-vgqsrnl6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AYUSA3A7NWLSzOb4pKe9fjZFDppH0V7hjiOUIWmy5BAR4BQ7nN0tnqrEvhlWQwcvWSihzXHFOWuHCiyD/spc/wH4QqzLtaLShuL6L35k_KAnGqEi4YeBUlQ7CAc8JNmB2-98MP8lMAK3Ip0IcWTlgNR0/vprv/1/ns/nRR1jYyoN8rtxlnY2clDQz0R/playlist_type/DVR/cps/0/initcwndbps/4938750/met/1766437133,/mh/Dq/mm/44/mn/sn-vgqsrnl6/ms/lva/mv/m/mvi/2/pl/17/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/cnzT1sJjaX7pm3T-Pg/mt/1766437020/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRAIgCNJ-YYHSv6lt6JjGaKCHYmJ4fkg8lpAW4P6II7B5R3QCIBxWLBEcceL9Qt74ZP53P4oawwnFqspyH9-zTehaRudz/lsparams/hls_chunk_host,cps,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAItVLpgpeGTmFT5_d2_vgI3KxmG8iZOA64lH1XrXse1NAiAC43Lv9vjBbZkIfHSXjNG8JGfyEcck1MkVrN8UQotjUw%3D%3D/playlist/index.m3u8
-#EXTINF:-1 tvg-id="@earthcam" group-title="@earthcam - YouTube",EarthCam Live: Ohio River - Madison, Indiana
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1766458804/ei/VLFJab3xC_SlzN0Ps8bp2QQ/ip/135.232.200.211/id/njxha0JiY8o.2/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr4---sn-vgqsrned.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AYUSA3DQpvUQJuRYzLaqiM2W86q5nXSExrSE9W8meHF0Kwr4f4_5aFgDyG6B7ZCVkAouEYtk09YwAOow/spc/wH4Qq9VFpbVxp8Ispd5H1VqPF82tACJ9FBPOaN2y6lKR5JnDDWx4O-p3pmOthG7hOkw/vprv/1/ns/ff1nFBqO8_pX_1YzB3v8bEAR/playlist_type/DVR/cps/16/initcwndbps/5448750/met/1766437205,/mh/XX/mm/44/mn/sn-vgqsrned/ms/lva/mv/m/mvi/4/pl/17/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/Sp4titQP2z58HkQ6cr/mt/1766436553/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRgIhAKPxo0AzUganthIXPdTJcG1bjJlNCBwgHPXc-5CESXK0AiEAvKH12o3DX6_LJwl_2rlccMZYIyLXut9wElYerN1504I%3D/lsparams/hls_chunk_host,cps,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAIdFaaM_-aCesXB8zJcrC78zB2bsjiTLRG42jRkyi61RAiAqkFSr3_TKziOIBVuXIG7sFg8COLlxYy3RmCYonmy6qg%3D%3D/playlist/index.m3u8
 
-# -------- Canal: @EsportenaBand --------
+# -------- Canal: @espnbrasil --------
+
+# -------- Canal: @FlowPodcast --------
 
 # -------- Canal: @getv --------
-
-# -------- Canal: Jovem Pan - 3 em 1 --------
-
-# -------- Canal: @jovempannews --------
 
 # -------- Canal: @otimesbrasil --------
 
 # -------- Canal: @ospingosnosis --------
-
-# -------- Canal: @radiobandeirantesoficial --------
 
 # -------- Canal: @c5n --------
 
@@ -32,15 +18,11 @@ https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1766458804/ei/
 
 # -------- Canal: @SBTNews --------
 
-# -------- Canal: SkylineWebcams --------
-
-# -------- Canal: @TMC.360 --------
+# -------- Canal: @SkylineWebcams --------
 
 # -------- Canal: @tmcesportes --------
 
-# -------- Canal: Todo Noticias --------
-
-# -------- Canal: @TVFLORIDAUSA --------
+# -------- Canal: @todonoticias --------
 
 # -------- Canal: @Chupim --------
 #EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
