@@ -4,11 +4,15 @@
 
 # -------- Canal: @espnbrasil --------
 
+# -------- Canal: @fiodiario --------
+
 # -------- Canal: @bmcnewstv --------
 
 # -------- Canal: @morningshow --------
 
 # -------- Canal: @otimesbrasil --------
+
+# -------- Canal: @recordnews --------
 
 # -------- Canal: @c5n --------
 
@@ -19,5 +23,7 @@
 # -------- Canal: @SkylineWebcams --------
 
 # -------- Canal: @TMC.360 --------
+#EXTINF:-1 tvg-id="@TMC.360" group-title="@TMC.360 - YouTube",AO VIVO: TMC 360 - 02/01/2026
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1767383597/ei/zc1XafbAEcO-zLUP8fPRkQ4/ip/4.236.159.229/id/cRnF_P_yNPM.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-p5qlsny6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AYUSA3BhZGp7EqmPpjxQWoDEakojZ1Cyiy-ekYi14kwTfOFrR31YEsAtQTNFfb9D31b5otSspisDStMr/spc/wH4Qq8bxpkSerlRSni91/vprv/1/playlist_type/DVR/met/1767361997,/mh/51/mm/44/mn/sn-p5qlsny6/ms/lva/mv/u/mvi/4/pl/17/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51552689,51565116,51565682,51580968/mt/1767361083/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIgLyXilP1xbvJzZxDz4l4cKsAz0WMd59Yuj8iGQSkDwUUCIQCAuB2cDg2lPxaOENggQXfOLgaTL2IrgqyIxsnXBUUzLw%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgGnZ9rW5Y8_2JZdYy02jNLjNL8pN2RfQPGb8nhx3FAl8CIQCi7vrMplwtPnsO2bbNpWh-eVNinci1WlW7l7FTYeg6Ew%3D%3D/playlist/index.m3u8
 
 # -------- Canal: @todonoticias --------
