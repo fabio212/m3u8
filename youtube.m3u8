@@ -1,8 +1,6 @@
 #EXTM3U
 
 # -------- Canal: @earthcam --------
-#EXTINF:-1 tvg-id="@earthcam" group-title="@earthcam - YouTube",EarthCam Live: Philadelphia, PA
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1767574784/ei/oLhaadvVD_nE-coP-bnO2AI/ip/52.173.108.16/id/RH5fgOcO0jg.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-vgqskn67.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AYUSA3BjVJp6z-RMQ0P7AgWcCkXgMJUytJdOFHlrRT2IO_bmSMmG7XNSxAEta-ybGZzz4BFyI8QtQCXW/spc/wH4Qq14-3twr77wWrVeQ/vprv/1/playlist_type/DVR/cps/0/met/1767553184,/mh/PD/mm/44/mn/sn-vgqskn67/ms/lva/mv/u/mvi/1/pl/19/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51552689,51565115,51565682,51580968/mt/1767552904/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRAIgAJw_kbyF33z-g_SXt-LqKtZrbmbLJumq_J0GXTVKLHACIDv0HtIAs2jLd8w2ID_WO8pIkyv_aklMuoEznNYQxzZ4/lsparams/hls_chunk_host,cps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgaUAEfCYwYx1BQ0_fo_efHaVjCRJw6yTpJR-fw8rK0J4CIQDp7682Mrr4iylQ4f-8UxtVsW-fDRJVBBA93xX4vJ9Zjw%3D%3D/playlist/index.m3u8
 
 # -------- Canal: @otimesbrasil --------
 
@@ -13,7 +11,5 @@ https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1767574784/ei/
 # -------- Canal: @SkylineWebcams --------
 
 # -------- Canal: @todonoticias --------
-
-# -------- Canal: @uol --------
 
 # -------- Canal: @CazeTV --------
