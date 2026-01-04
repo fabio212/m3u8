@@ -1,6 +1,8 @@
 #EXTM3U
 
 # -------- Canal: @earthcam --------
+#EXTINF:-1 tvg-id="@earthcam" group-title="@earthcam - YouTube",EarthCam Live: San Diego Bay
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1767531784/ei/qBBaaYWwKcbQlu8PmbL8gAc/ip/172.183.89.130/id/277D0mDXTBE.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr2---sn-vgqsknz6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AYUSA3B98i4QwnUhfIaU8KaYpnV-bnaVUIInBAQwkcdJPcmfOrS5dKUnh40uGBeJMCntbpkRvW_MhC3K/spc/wH4Qq6TSUR4-P8lIHHB7/vprv/1/playlist_type/DVR/cps/5/met/1767510184,/mh/wq/mm/44/mn/sn-vgqsknz6/ms/lva/mv/u/mvi/2/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51552689,51565115,51565682,51580968/mt/1767509333/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRAIgNU3v8DB97pesOMvqlLzzfhNM74qyE0fS7gAD5CidVtkCIGYIqzJfrZU4P9SAw1aQLwaXhmXG1VnGIRQBX0oGEaGE/lsparams/hls_chunk_host,cps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAPACZQf5jXhA1EKT_FHzGEhSyIxAFJzYFFtO5EhMcEzzAiEAkWq4zQd6e0rF8VJAkiu6jffmMcIUaDk1yJna0sQDNrg%3D/playlist/index.m3u8
 
 # -------- Canal: @c5n --------
 
