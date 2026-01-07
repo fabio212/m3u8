@@ -2,7 +2,7 @@
 
 # -------- Canal: @earthcam --------
 
-# -------- Canal: Fio Diario --------
+# -------- Canal: @fiodiario --------
 
 # -------- Canal: @FlowPodcast --------
 
@@ -19,8 +19,6 @@
 # -------- Canal: @SBTNews --------
 
 # -------- Canal: @SkylineWebcams --------
-#EXTINF:-1 tvg-id="@SkylineWebcams" group-title="@SkylineWebcams - YouTube",🔴 1200 TOP LIVE WEBCAMS around the World with relaxing Music ☕ and Map | SkylineWebcams
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1767851138/ei/IvBeaf7jMtHE-coPub_zyA8/ip/172.183.94.137/id/EFum1rGUdkk.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr5---sn-vgqsrn67.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AYUSA3ADFBoa17mqDECaQMWi_Ve90txCoDUobnQS-KUQPiu4iC1sR74mpjUKxyLSqILD7HXjciBHqgCn/spc/wH4Qq83I2fjDj8b5ACevUCdtVLR5Te3KSMDXEXv_oaWf1B7DZbai1PxilFojQzN8jI8/vprv/1/ns/cArZlfB31VJ2ukZY4Q7uuMQR/playlist_type/DVR/met/1767829539,/mh/Kt/mm/44/mn/sn-vgqsrn67/ms/lva/mv/u/mvi/5/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/RocY6zGXsM4ap1wwkg7/mt/1767829246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRQIhAMNSwiAevaKvp_39Q_DGYr4pYLuIsd6ATCbiA1lbZSaZAiAeqGFNHYLCSsTOi_fQTkQ3i30tNevEtgdwfeAHxgGTjQ%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgOLc_4T4TySpQa4y1JsaS2Z0BlpMDQbiKJrej8BoKL7sCIEVpRDtZdKQUuSYfd__G_vbVNTf5znF2QGXb9IPYSYQR/playlist/index.m3u8
 
 # -------- Canal: @TMC.360 --------
 
@@ -31,3 +29,5 @@ https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1767851138/ei/
 # -------- Canal: @todonoticias --------
 
 # -------- Canal: @TVFLORIDAUSA --------
+
+# -------- Canal: @xsports.brasil --------
