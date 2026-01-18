@@ -1,10 +1,6 @@
 #EXTM3U
 
 # -------- Canal: @earthcam --------
-#EXTINF:-1 tvg-id="@earthcam" group-title="@earthcam - YouTube",EarthCam Live - Western Wall (Jerusalem, Israel)
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1768747892/ei/FJ9sad7kHYOHr9gPiJOV0QU/ip/4.227.135.145/id/0jEa0FOw6vE.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-p5qddn76.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AW-iu_renE7JwSGcV4M9ADf1jmoIpQKP2Z-YHG0R7WllQy3lvVUi8lSV-184DisZboi00fnZ_bXE8Dr7/spc/q5xjPMNjBCHXmY5CwNR3iyPFVMDEeSFyHg7Y9lUoKFo8xErjx0nZ-7CFspwbV3QbrLI/vprv/1/ns/KdUpeCLY_PFa3FjsBTQHx5MR/playlist_type/DVR/met/1768726293,/mh/Rg/mm/44/mn/sn-p5qddn76/ms/lva/mv/u/mvi/2/pl/17/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565682,51580968/n/0D7-RII0-RuZGqLzEYZ/mt/1768725246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRQIhAMf0j3l6ydr6aPFW6GoJOGvFNR-9A578Kqj1LZ7W0mDNAiApzzlOxUPQH6uSmkkRrh_qsGDMRFPlUebV7FKC9LWqxA%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgX5gsIhrdMj5QfzofvB6HkkPaKhELsDbK0VtXgPXwfMECIGMBXhc1A2nu7w8Q6VNf_fHTy3HCKatEyNeCb-W8yosX/playlist/index.m3u8
-#EXTINF:-1 tvg-id="@earthcam" group-title="@earthcam - YouTube",EarthCam Live: Ohio River - Madison, Indiana
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1768747975/ei/Z59sac6nILn1zLUPmaPAuAE/ip/4.227.135.145/id/njxha0JiY8o.2/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr4---sn-p5qs7nzy.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AW-iu_qiO9NIHJ9fV5DbIz39CKnR-o3qtpRdyWAbjjnAfu7ME5qN0_DDzYMnP4_lih3ZyNOVxgt-0w5C/spc/q5xjPERtjezq1xH2l5QE6SEFMHTPjdXJnFnL5QLnDdB9ZAXJssVzTWLQHXwMgJd1I8E/vprv/1/ns/OKlOgkV3_Nw_8jVaSeUk-ikR/playlist_type/DVR/met/1768726375,/mh/XX/mm/44/mn/sn-p5qs7nzy/ms/lva/mv/u/mvi/4/pl/17/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626154/n/oqd5F7Z6fpeLA198MeD/mt/1768725246/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRAIgOQY-zjJ7eQyGPvYphPkd64FKpbxErUSPWQ_HCuoWLeYCIHIMN3X_3iFrrXSLZ2PCn9lk8PWIg98WQUT8zMvo_L-R/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgGqwvZLVtCoW1n1PvPxqdTbpgTkdMprVhHvAouLG1xJ8CIG21vpECdEtsuUou-1O7L1kyUQN3FO8frADO-8xvRGmD/playlist/index.m3u8
 
 # -------- Canal: @c5n --------
 
@@ -13,6 +9,8 @@ https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1768747975/ei/
 # -------- Canal: @SkylineWebcams --------
 
 # -------- Canal: @todonoticias --------
+
+# -------- Canal: @CNNbrasil --------
 #EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
 https://as.luminous.dev/live/betboom_sb_dota?allow_source=true&allow_audio_only=false&fast_bread=true
 #EXTINF:-1 tvg-id="twitch-chess24" group-title="Twitch",Twitch: chess24
