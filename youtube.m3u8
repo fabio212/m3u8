@@ -1,10 +1,6 @@
 #EXTM3U
 
 # -------- Canal: @earthcam --------
-#EXTINF:-1 tvg-id="@earthcam" group-title="@earthcam - YouTube",EarthCam Live: 9/11 Memorial & Museum, World Trade Center
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1768758029/ei/rcZsadbgIO73j-8PgNu-oQQ/ip/48.214.53.115/id/PI63KrE3UGo.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-p5qs7nsk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/bui/AW-iu_riOjp-RbkAMyf7lRHw8YMTSRgQ9yMCpUjChUjln4A6Y_OjaFRt8vPhqebkOGX3bPxwAai6EVFI/spc/q5xjPKoMfLXZK8Bf369Hd8PKm-xWvSKoq5VIOzF0X0eh9liWzQvBFC0xxqK8rhbM5EY/vprv/1/ns/kUtUpmzb1-6muKc_d3THJU4R/playlist_type/DVR/met/1768736429,/mh/bB/mm/44/mn/sn-p5qs7nsk/ms/lva/mv/u/mvi/4/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626154/n/tNDR7zZv6KnBRJUqPi0/mt/1768735893/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRQIhANS9AS0u_xgugAxBuqATs66NXKSBd66REOfjuMeyZG1ZAiBxisxT0SabUPVIwn1CilqfCjaacd-6Y2yxZf5lu-54jg%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgCNEXzEqf8k_2Zy8htXZ85p-0vdP9M-gPdUqDqu37f5ACIQCwIBf1z7OKRkARphMUKXeYU6__l8PR5SUJzyPRKe-2Xg%3D%3D/playlist/index.m3u8
-
-# -------- Canal: @FlowSportClub --------
 
 # -------- Canal: @c5n --------
 
@@ -12,4 +8,6 @@ https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1768758029/ei/
 
 # -------- Canal: @SkylineWebcams --------
 
-# -------- Canal: Todo Noticias --------
+# -------- Canal: @canalgoatbr --------
+
+# -------- Canal: @todonoticias --------
