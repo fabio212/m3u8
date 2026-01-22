@@ -1,18 +1,18 @@
 #EXTM3U
 
 # -------- Canal: @earthcam --------
-#EXTINF:-1 tvg-id="@earthcam" group-title="@earthcam - YouTube",EarthCam Live: Roswell, New Mexico
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769096918/ei/dvJxafbQIPmz-coP7-2VkQw/ip/52.154.132.180/id/XDThHUawq6E.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-ojvgq5-cv.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AW-iu_p0hjjXim32eUeBfKdXFqPCiUxAvp74h5m1mKe4Z3aO5scYrA1UUodOFUxvsmrESk3vA6oyccya/spc/q5xjPMVNDu5wXoI2sj-V/vprv/1/playlist_type/DVR/met/1769075318,/mh/sX/mm/44/mn/sn-ojvgq5-cv/ms/lva/mv/u/mvi/4/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51552689,51565116,51565682,51580968,51626155/mt/1769074165/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJEij0EwRQIhAMNUyC_Q87ptfdADstxUifMBX5G2rTQbVa1iOiVGctdMAiBtLfXTcNo0BqbagPXDfiQ3abzd4dajLxr2yvSr-i2Y1Q%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAKN1elzMR_9gr4FmQFc0BbeIivF4KAHQDP5dvQ7p5wxVAiEAnnL_4CibKjcy2pYdeMHZO1dLq-rDRWKk9h3WYM7OG5Q%3D/playlist/index.m3u8
+
+# -------- Canal: @otimesbrasil --------
 
 # -------- Canal: @recordnews --------
 
 # -------- Canal: @c5n --------
 
+# -------- Canal: @RevistaOeste --------
+
 # -------- Canal: @SBTNews --------
 
-# -------- Canal: SkylineWebcams --------
-#EXTINF:-1 tvg-id="SkylineWebcams" group-title="SkylineWebcams - YouTube",🔴 200 TOP LIVE CAMS from Greece with relaxing music and Map | SkylineWebcams
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769097034/ei/6vJxaambOuvxybgP0PKG-Ac/ip/52.154.132.180/id/5p-s-1453Us.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr5---sn-vgqsrn6z.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AW-iu_rA91APlAib69s-m8sse69d5iGsbMvlUz7GWdxEa8VMhLN37VCG1bweUTVk3Be0XAAZMzOtLnrF/spc/q5xjPA0PTn6ORXixQmUK/vprv/1/playlist_type/DVR/met/1769075435,/mh/mO/mm/44/mn/sn-vgqsrn6z/ms/lva/mv/u/mvi/5/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51552689,51565116,51565682,51580968,51626155/mt/1769075117/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJEij0EwRQIhAIxaiQnO0t1XwgC9kE1j_Y_GRCMg3TeqYa1MhOZLlvmEAiAQw4N6dwLsSAVGpvbf2k2981uhAFNNz-MeHY1MKHjNXw%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgRU3-A8IjT15xQd7K197w9n6VitpXoG7zMCHNy4ARFf0CIHK7DHtF6bs3RLeJ9TWqyo96D4Wbfy9u_okQS6AWSkpN/playlist/index.m3u8
+# -------- Canal: @SkylineWebcams --------
 
 # -------- Canal: @TMC.360 --------
 
