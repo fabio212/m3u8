@@ -4,9 +4,17 @@
 
 # -------- Canal: @espnbrasil --------
 
+# -------- Canal: @fiodiario --------
+
 # -------- Canal: @bmcnewstv --------
 
+# -------- Canal: @morningshow --------
+
 # -------- Canal: @otimesbrasil --------
+
+# -------- Canal: @bradockshow --------
+
+# -------- Canal: @PauloFigueiredoShow --------
 
 # -------- Canal: @recordnews --------
 
@@ -21,6 +29,10 @@
 # -------- Canal: @TMC.360 --------
 
 # -------- Canal: @todonoticias --------
+
+# -------- Canal: @TVFLORIDAUSA --------
+
+# -------- Canal: @uol --------
 #EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
 https://as.luminous.dev/live/betboom_sb_dota?allow_source=true&allow_audio_only=false&fast_bread=true
 #EXTINF:-1 tvg-id="twitch-chess24" group-title="Twitch",Twitch: chess24
