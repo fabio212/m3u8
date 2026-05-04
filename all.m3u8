@@ -1,34 +1,18 @@
 #EXTM3U
 
-# -------- Canal: @ConversaTimeline --------
-
 # -------- Canal: @earthcam --------
 
-# -------- Canal: @Energia97FMLive --------
-
-# -------- Canal: @espnbrasil --------
+# -------- Canal: @energia97 --------
 
 # -------- Canal: @EsportenaBand --------
 
-# -------- Canal: @fiodiario --------
-
-# -------- Canal: @FlowPodcast --------
-
-# -------- Canal: @getv --------
-
-# -------- Canal: @jovempan3em1 --------
-
-# -------- Canal: @MarceloBrigadeiroOficial --------
-
-# -------- Canal: @MBLiveTV --------
+# -------- Canal: @bmcnewstv --------
 
 # -------- Canal: @morningshow --------
 
 # -------- Canal: @NaLataDriver --------
 
 # -------- Canal: @otimesbrasil --------
-
-# -------- Canal: @bradockshow --------
 
 # -------- Canal: @ospingosnosis --------
 
@@ -50,13 +34,13 @@
 
 # -------- Canal: @sbt --------
 
+# -------- Canal: @SBTNews --------
+
 # -------- Canal: @SportyNetBrasil --------
 
 # -------- Canal: @SkylineWebcams --------
 
 # -------- Canal: @Telefe --------
-
-# -------- Canal: @canalgoatbr --------
 
 # -------- Canal: @todonoticias --------
 
@@ -68,9 +52,9 @@
 
 # -------- Canal: @xsports.brasil --------
 
-# -------- Canal: @Chupim --------
+# -------- Canal: @CazeTV --------
 
-# -------- Canal: @ClaudioDantasOficial --------
+# -------- Canal: @Chupim --------
 #EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
 https://as.luminous.dev/live/betboom_sb_dota?allow_source=true&allow_audio_only=false&fast_bread=true
 #EXTINF:-1 tvg-id="twitch-chess24" group-title="Twitch",Twitch: chess24
