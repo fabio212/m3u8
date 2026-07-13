@@ -1,16 +1,30 @@
 #EXTM3U
 
-# -------- Canal: @ConversaTimeline --------
-
 # -------- Canal: @earthcam --------
 
-# -------- Canal: @panicojovempan --------
+# -------- Canal: @FlowSportClub --------
+
+# -------- Canal: @gazetadopovo --------
+
+# -------- Canal: @bmcnewstv --------
+
+# -------- Canal: @jovempannews --------
+
+# -------- Canal: https://www.youtube.com/c/Metr%C3%B3polesTV --------
+
+# -------- Canal: @radiobandeirantesoficial --------
+
+# -------- Canal: @RadioBandNewsFM --------
 
 # -------- Canal: @RadioKissFMoficial --------
 
+# -------- Canal: @recordnews --------
+
+# -------- Canal: @RedCastOficial --------
+
 # -------- Canal: @c5n --------
 
-# -------- Canal: @RevistaOeste --------
+# -------- Canal: @SBTNews --------
 
 # -------- Canal: @SkylineWebcams --------
 
@@ -18,7 +32,9 @@
 
 # -------- Canal: @todonoticias --------
 
-# -------- Canal: @ClaudioDantasOficial --------
+# -------- Canal: @uol --------
+
+# -------- Canal: @CNNbrasil --------
 #EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
 https://as.luminous.dev/live/betboom_sb_dota?allow_source=true&allow_audio_only=false&fast_bread=true
 #EXTINF:-1 tvg-id="twitch-chess24" group-title="Twitch",Twitch: chess24
