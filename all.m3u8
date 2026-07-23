@@ -4,11 +4,7 @@
 
 # -------- Canal: @earthcam --------
 
-# -------- Canal: @espnbrasil --------
-
-# -------- Canal: @fiodiario --------
-
-# -------- Canal: @MBLiveTV --------
+# -------- Canal: @gazetadopovo --------
 
 # -------- Canal: @panicojovempan --------
 
@@ -16,17 +12,13 @@
 
 # -------- Canal: @RevistaOeste --------
 
+# -------- Canal: @SBTNews --------
+
 # -------- Canal: @SkylineWebcams --------
 
 # -------- Canal: @Telefe --------
 
 # -------- Canal: @todonoticias --------
-
-# -------- Canal: @TVFLORIDAUSA --------
-
-# -------- Canal: @xsports.brasil --------
-
-# -------- Canal: @ClaudioDantasOficial --------
 #EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
 https://as.luminous.dev/live/betboom_sb_dota?allow_source=true&allow_audio_only=false&fast_bread=true
 #EXTINF:-1 tvg-id="twitch-chess24" group-title="Twitch",Twitch: chess24
