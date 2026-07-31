@@ -1,7 +1,5 @@
 #EXTM3U
 
-# -------- Canal: @ConversaTimeline --------
-
 # -------- Canal: @earthcam --------
 
 # -------- Canal: @RedCastOficial --------
@@ -14,9 +12,9 @@
 
 # -------- Canal: @SkylineWebcams --------
 
-# -------- Canal: @Telefe --------
-
 # -------- Canal: @todonoticias --------
+
+# -------- Canal: @TVFLORIDAUSA --------
 
 # -------- Canal: @CazeTV --------
 #EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
