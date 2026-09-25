@@ -1,22 +1,16 @@
 #EXTM3U
 
-# -------- Canal: @ConversaTimeline --------
-
 # -------- Canal: @earthcam --------
 
-# -------- Canal: @FlowPodcast --------
+# -------- Canal: @recordnews --------
 
 # -------- Canal: @c5n --------
 
-# -------- Canal: @RevistaOeste --------
+# -------- Canal: @SBTNews --------
 
 # -------- Canal: @SkylineWebcams --------
 
 # -------- Canal: @todonoticias --------
-
-# -------- Canal: @TVFLORIDAUSA --------
-#EXTINF:-1 tvg-id="kick-chief117" group-title="Kick",OPA OPA OPA 2026-09-25 01:30
-https://fa723fc1b171.use11.playlist.live-video.net/v1/playlist/CoIGS4NUWBztlCrm_FXLWQIZaphypDP4rJR9oUx0ep_sLBNGNhnBq7MDx2C_3p8HQpFtKs3rfx0VqksKSC_7juPVYbp0Qf4PRTf-ZAVyG4ga6hdJFNj11J4HInU3WhWf0vf3Vzkp1f7-ThI66zvTlhd8cLSHYn3VVgogk8xaAKpqxCgfV9GxXvWg2e8aYvyRePIUfbA3vqIV3CooatLe08IxeN_RrDpi_nCpznC71LQsaHzDNAIo5A3gBhZg2bmlDvc6UjCUpcUTV0vhk_LIcJ65ilKrse53wD5agFEIi3C8Hdfd3pxkTKOkqEk4yXfZY68hmowjXlPqUyQZH4DHRxdi-J2QOmAAd_0GNvNaXXZooDHLBtFe_BPkIYM1HIHFIpL0nQgXHBcAq0K-ye7Hqullr0ulZq1hl717fs5ck7Ug7rEI4taARrU7chlQMFo1usl6Kuxxmfy1dl_gZ_rUnOm3kvF9Qv1MPGv7uxDSDRcbRNC7HWHPBH5DXh4x1BSvzUg0DSvvu15wtraYHM4vNbTZ7OuJRPbzc4Y3BO0rlqAv9dG8a7CiEJOyBH1xvmtYq4OrX2RLWAS0lROakuK8VccN7BtPaRDyXM2A7SyBOBb_i3fsVLh5cw4B5Cppga1nh2y_OMJ5c7kCORNujSrabQm1E3OSGihuI1IPuylleaFYXsCrQaowD_SZ12VNtNIXSnRrPX2JMbCSWNxHObx-6rkMF0nWbiSAIhWqed7EckRt2OkLTzQErrUyC--8WhCton3Ajnspa_cXeZkWA4l6etEhHv0DpJfL8Mnq9I_Gcw5aJW0MM4m84yK1Q57u-eLNi0cVHjXDKqO1adABrfZdxh7aZAKpDELyyOKTMX_djyv8BZ1mKPsCImEzvTI3tHpPPAHrYPQWwujLApOSSb_Z1tlHP1syzU4nJahSCYeI_qvma8kF_ZxKiAmHK3M4NlA-bhCphShauSWUz1stP-4A5BCY16z4aIysIvHTgibFTdy9O7qv8I7ZpP-5cOsGYI3S1yeSLEoaDO6jrFfCuazf3IkMUSABKgl1cy1lYXN0LTIwlBA.m3u8
 #EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
 https://as.luminous.dev/live/betboom_sb_dota?allow_source=true&allow_audio_only=false&fast_bread=true
 #EXTINF:-1 tvg-id="twitch-chess24" group-title="Twitch",Twitch: chess24
