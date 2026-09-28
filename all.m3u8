@@ -1,20 +1,28 @@
 #EXTM3U
 
+# -------- Canal: @ConversaTimeline --------
+
 # -------- Canal: @earthcam --------
 
-# -------- Canal: @NaLataDriver --------
+# -------- Canal: @espnbrasil --------
 
-# -------- Canal: @recordnews --------
+# -------- Canal: @panicojovempan --------
+
+# -------- Canal: @RedCastOficial --------
 
 # -------- Canal: @c5n --------
+
+# -------- Canal: @RevistaOeste --------
 
 # -------- Canal: @SBTNews --------
 
 # -------- Canal: @SkylineWebcams --------
 
 # -------- Canal: @todonoticias --------
-#EXTINF:-1 tvg-id="kick-chief117" group-title="Kick",LIXO DAY 2026-09-28 06:56
-https://fa723fc1b171.use12.playlist.live-video.net/v1/playlist/CoQGhbWdaFr4sUZKZjvWDIlC9-NGUyXALXWWjGOXlLibJurTyehwKgaBPZlvR7UC7YNBWC-BR8B6kZNFRBz0DtUT130rO2xxi9T8ejR_AFION__uQaKjxkX44QvHHIlmKOfhMntjjdO5tyylGoL5zoBj1ZRJoTR0jjAUj9B_bwBzu1hg9_OKdJf4hov2rcYd3Qy48dSwDqTFz4j-lO1NDM3hExX0xUFFI_ZUZ8_-UhdEwUxLKma26w4IdNsPuicPvRtwbE0NCQ9Bc1prgMwfgehMtFfNf23hYJGbU7TfzIi-PBgleW_ntMBKvirr0xfWgCurEJu9kelv7zPT3tlqWktZL5GcxONSwWEUUzImlUI1B-cMSv-uUGUhQzwiKacnlhIBQG5bRXd3WVW7f0cuzteErY2XlrVVf8ijx8sWvad_OJ7rPWY6xN7SYTJxzD9Tjz0t-t9nBAgeoMjCd3F1E5znlppeS5Xz6J8i7eFAKh3f5BkinA9J-sBElZ4H0Hd_akugm0XNhxaQi9S4dL9LsK9c7K9LDv3qWHVxqidTx2EU8cDqWDHBgMkq1sQ6XcMOScoBByW6KHsJEt8O-KRPpLMipMdEe1c9oQqr8EZ5-LZ-8Mbm0a8A__9n6eknkrwI6eWBTKOvl5nFT9QTwivQv8PY8PxZLNhehqbduBg8sslG01amJpDCmyQ9J84fb727m2Spj-c5tjWgLP8SShA3KnqAOSKrTDKAYqN7NKJ1kX_wmoP02q-v98PVJ2JShJsASLUB3d9525MFYr3yG1TEMtyFHMZavDVnF6Q-OMzFGrvmQSHfT0td3vH1eJvXF2q1gPiMtExzabr2Al8b0WlZli4xUN_0jwWa_C7A6CE0CZ5ESgtReFqmo7i7Ej3GrWLUo5a9bRGzpKVcFeaa4ejuOchC7vDI3nV7Z8s4aAjnwg-64qeqZvgt8OLyoyzhKPVqI0xZ4nN61G9wcP_uoLS6gT4lt0hWwgAZJoBBcBLYNQBCA8bd1gZ5kGYVJerknT0HZyc_Zts4vxoMDBxQ8o4z3M_56ByIIAEqCXVzLWVhc3QtMjCXEA.m3u8
+
+# -------- Canal: @TVFLORIDAUSA --------
+
+# -------- Canal: @ClaudioDantasOficial --------
 #EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
 https://as.luminous.dev/live/betboom_sb_dota?allow_source=true&allow_audio_only=false&fast_bread=true
 #EXTINF:-1 tvg-id="twitch-chess24" group-title="Twitch",Twitch: chess24
