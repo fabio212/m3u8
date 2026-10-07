@@ -1,26 +1,22 @@
 #EXTM3U
 
-# -------- Canal: @earthcam --------
+# -------- Canal: @ConversaTimeline --------
 
-# -------- Canal: @MBLiveTV --------
+# -------- Canal: @earthcam --------
 
 # -------- Canal: @NaLataDriver --------
 
-# -------- Canal: @bradockshow --------
-
-# -------- Canal: @recordnews --------
-
-# -------- Canal: @RedCastOficial --------
-
 # -------- Canal: @c5n --------
-
-# -------- Canal: @RevistaOeste --------
 
 # -------- Canal: @SBTNews --------
 
 # -------- Canal: @SkylineWebcams --------
 
 # -------- Canal: @todonoticias --------
+
+# -------- Canal: @TVFLORIDAUSA --------
+#EXTINF:-1 tvg-id="kick-chief117" group-title="Kick",Winner 2026-10-07 02:42
+https://fa723fc1b171.usw22.playlist.live-video.net/v1/playlist/CoIGAHTIvx6fOFTz8Jb3et3KrMB2vZp1ghN1gkVLsOI6Mbh5ufhS9HFT9Y0z4und0cqzkwVaOX9jcW9-eN7-faNW1Ta9XjgRetg8JBbM-RL9uwyuVebzoGe_95gh0Z85lvOZROvsFrUYNWeV0gA-Kf1QkmnJxmEmhj1kGf5uTg5GL8U3RUuFwN9RQMN0zrUMxE5NvnZEf1pB-36TQNsNLSizFbjUljGfXC4mgDpa79p4NEnNx9VOL0vpJVw7IyCnGOuhM8sYgjsYnFUbIZH5FYVXfhrrto5UVsyrplf03gb5K_MDJ4dtCKITQOA5NYwl2q7Nv0WAMOVzV_y-Y8N831sNMFbOZkrCAdUdmELoj39DpKWtcRUEDmaMiRWtP9E3dKHo6r8hcmR3hmfEATDbwBeoJINyYAVLyIQsChNHjRHA7O9VhFsOWEY51EsN9SmiIEraxmWDn3lcBD5SPv_6vby6Nsh1o1lA2D6vPcRlE-0XGS5hKVax4X1eU_hUz3lvT9Ugto9tt5i-IN3umDHGa7erw08oLGDLL3yl-0MBuRC86O_ugkxJT8xb8WvYZEwKDFVNFvIQFMsC5zjOlYtF2Hzas-6vNwWn_-8O3iKWUcK5T-BV5b62MKc5U1Lwm1M4fy5-chew52u4Jq2ZnZjpL5PWRG8hgbbterAVaKgpUAD0tpdzht0bsMYW2cxBu7pnS3fUbI3990BGaFD60TOnmcr7v1P8IBY3xajn9_O9jR0h2bteH8WAmZt_ToNaIv2DZSsIK5ufnMbfW2LockkVz02HyxuXHkiCQ0yh0Jbe3F-WakQ8dplKuaXnz4XW5TeONr3Rm2ApyXzxRkDKPoN1YU372naX7hvtzTjRfeCNfeTbCHbnZDRdg5CQbNBAWVaLX9AiWgI-1QhuinAfa7lE4UMADWGL2CaL1gGY9f1mwAmK9JQSEw7K_fYCg28oY9RHYfz9pFHVjOjJmGBGTue67aoMuijqy8-OHAgJA1ly6BD7BwZZImC76Pd2LeYdbogUSBseDzQaDJiIrt3k9rlyv6vhQSABKgl1cy13ZXN0LTIwoRA.m3u8
 #EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
 https://as.luminous.dev/live/betboom_sb_dota?allow_source=true&allow_audio_only=false&fast_bread=true
 #EXTINF:-1 tvg-id="twitch-chess24" group-title="Twitch",Twitch: chess24
