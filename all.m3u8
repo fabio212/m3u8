@@ -1,22 +1,24 @@
 #EXTM3U
 
+# -------- Canal: Conversa Timeline --------
+
 # -------- Canal: @earthcam --------
 
-# -------- Canal: Gazeta do Povo --------
-
-# -------- Canal: @bmcnewstv --------
+# -------- Canal: @espnbrasil --------
 
 # -------- Canal: Instituto Conhecimento Liberta --------
 
-# -------- Canal: Jovem Pan News --------
+# -------- Canal: MBL TV --------
 
-# -------- Canal: Metrópoles --------
+# -------- Canal: Pânico Jovem Pan --------
 
 # -------- Canal: Rádio Bandeirantes --------
 
 # -------- Canal: Rádio BandNews FM --------
 
 # -------- Canal: Record News --------
+
+# -------- Canal: @RedCastOficial --------
 
 # -------- Canal: @c5n --------
 
@@ -29,6 +31,10 @@
 # -------- Canal: @todonoticias --------
 
 # -------- Canal: @TVFLORIDAUSA --------
+
+# -------- Canal: UOL --------
+
+# -------- Canal: Claudio Dantas --------
 
 # -------- Canal: CNN Brasil --------
 #EXTINF:-1 tvg-id="twitch-betboom_sb_dota" group-title="Twitch",Twitch: betboom_sb_dota
